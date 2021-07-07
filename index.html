@@ -5,15 +5,53 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>The Cursed Reign</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
 </head>
 <body>
     <div class="container">
         <div class="box1">
-            <p>
-                The Cursed Reign is a visual novel set in a medieval fantasy world.
-                You play as Veleria Garris, a mercenary-for-hire who is betrayed by her employer.
-            </p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class ="box2" id="home">
+            <h1>The Cursed Reign</h1>
+            <h4>A Visual Novel by Thief</h4>
+        </div>
+        <div class="box3">
+            <p>The Cursed Reign is a visual novel in which you play as <strong>Veleria Garris</strong>, a mercenary-for-hire who is betrayed by her employer. After nearly escaping with the information you were hired to find, you are killed by Vos'iin Ceras'Beur, a hired hand of the sorceress Alk'Hath.</p>
+            <p>You are found by Adrian Giarmund and nursed back to health, although how you survived is still a mystery to you.</p>
+        </div>
+        <div class="box4" id="about">
+            <h2>About</h2>
+            <img src="images/valicon.png" alt="An icon of the character Valenne.">
+            <p><strong>Thief</strong> is a visual novel and adventure game developer from California. Most of the games they develop follow the stories of women who find themselves in substantial circumstances.</p>
+            <p>They draw inspiration from novels such as Glen Cook's <i>The Black Company</i> series, J. R. R. Tolkien's <i>The Lord of the Rings</i>, and H.P. Lovecraft's various works.</p>
+        </div>
+        <div class="box5" id="contact">
+            <h2>Contact</h2>
+            <p>E-Mail: <a href="mailto: artofthieving@gmail.com">artofthieving@gmail.com</a></p>
+            
+            <form>
+                <div class="formstyles">
+                    <h3>You can also subscribe to my newsletter for updates.</h3>
+                    <p>Don't worry, I'll only sell your information to prospective clients.</p>
+                </div>
+
+                <div class="inputstyles">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="E-mail Address" name="email" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+                    </label>
+                </div>
+
+                <div class="submitstyles">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
         </div>
     </div>
 </body>
