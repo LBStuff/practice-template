@@ -20,6 +20,8 @@ body {
 .box1 {
     background-color: #333;
     width: 100%;
+    top: 10px;
+    position: sticky;
 }
 
 h2 {
@@ -40,8 +42,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
-    position: sticky;
     top: 0;
     width: 100%;
 }
