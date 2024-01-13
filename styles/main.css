@@ -23,11 +23,6 @@ body {
     padding-right: 5px
 }
 
-.box2 {
-    margin: auto;
-    padding: 10px;
-}
-
 .outer-box {
     background-color: black;
     margin: auto;
@@ -50,6 +45,7 @@ body {
     padding: 5px;
     border: 1px solid black;
     font-family: silkscreen;
+    font-size: small;
 }
 
 .icon {
@@ -121,7 +117,7 @@ ul li ul {
 }
 
 ul li:hover > ul,
-ul li:focus-within > ul,
+li:focus-within > ul,
 ul li ul:hover {
     visibility: visible;
     opacity: 1;
