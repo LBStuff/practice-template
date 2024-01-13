@@ -14,22 +14,25 @@
 </head>
 <body>
     <div class="container">
-        <div class="box1">
+        <nav role="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="mortalfear.html">Mortal Fear</a></li>
-                <li><a href="inheritance.html">Inheritance</a></li>
+                <li><a href="#">Games</a>
+                    <ul class="dropdown">
+                    <li><a href="mortalfear.html">Mortal Fear</a></li>
+                    <li><a href="inheritance.html">Inheritance</a></li>
+                    </ul>
+                </li>
                 <li><a href="dnddump.html">DnD Dump</a></li>
             </ul>
-        </div>
-        <div class ="box2" id="home">
-            <h1>DnD Dump</h1>
-            <h4>It's my DnD crap.</h4>
-        </div>
-        <div class="box3">
-            <p>Just where I'm putting my DnD crap for now.
-            </p>
+        </nav>
+        <div class ="outer-box">
+            <div class="header-box">DnD Dump</div>
+            <div class="content-box">
+                <p>Just where I'm putting my DnD crap for now.
+                </p>
+            </div>
         </div>
     </div>
 </body>
